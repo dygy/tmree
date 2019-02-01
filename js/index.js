@@ -75,7 +75,7 @@ function init() {
       //roughness: 0.3,
       metalness: 1,
       //shading: THREE.SmoothShading,
-      shading: THREE.FlatShading,
+      flatShading: THREE.FlatShading,
       side: THREE.DoubleSide
     });
     let wmaterial = new THREE.MeshLambertMaterial({
